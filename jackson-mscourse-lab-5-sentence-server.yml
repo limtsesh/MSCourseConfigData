@@ -1,0 +1,7 @@
+eureka:
+  client:
+    serviceUrl:
+# Single Server
+#      defaultZone: http://localhost:8010/eureka/
+# Cluster Servers
+       defaultZone: http://eureka-primary:8016/eureka/,http://eureka-secondary:8017/eureka/,http://eureka-tertiary:8018/eureka/
